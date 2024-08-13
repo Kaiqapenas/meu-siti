@@ -47,10 +47,10 @@
 
 <body>
     <div class="painel">
-        <h1>eai qual vai ser</h1>
+        <h1>Vinhos e fofocas</h1>
         <img src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif" alt="">
-        <h2>Aceitas sair e encher a fuça cmg?</h2>
-        <a href="https://www.youtube.com/watch?v=2H_vPzYa1PY"><button id="sim"> Sim!</button></a>
+        <h2>Aceita ver alguma coisa falando do zoto cmg ?</h2>
+        <button id="sim" onclick="parabens()"> Sim!</button>
         <button onmouseover="fuja()" id="nao"> Não</button>
 
 
@@ -66,6 +66,10 @@
             var aleatorioY = Math.floor(Math.random() * maxY);
             botaoNao.style.left = aleatorioX + "px";
             botaoNao.style.top = aleatorioY + "px";
+        }
+
+        function parabens() {
+            alert("parabens, prometo q nao tenho medo de vc :) ")
         }
     </script>
 </body>
